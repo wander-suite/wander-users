@@ -4,7 +4,7 @@
   "description": "A service which provides all user-related functionality for Wander",
   "main": "service.ts",
   "scripts": {
-    "dev": "nodemon service.ts",
+    "dev": "nodemon ./src/service.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

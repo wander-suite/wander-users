@@ -8,12 +8,15 @@
         "sourceMap": true,
         "moduleResolution": "node",
 
+        "paths": {
+            "*": ["./src/*"]
+        },
+
         "esModuleInterop": true,
         "outDir": "./dist",
+
     },
-    "include": [
-        "*.ts"
-    ],
+    "include": [ "src" ],
     "exclude": [
         ".vscode",
         "node_modules",
