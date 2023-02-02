@@ -1,25 +1,19 @@
 {
-    "compilerOptions": {
-        "target": "ES2016",
-        "module": "commonjs",
-        "noImplicitAny": true,
-        "removeComments": true,
-        "preserveConstEnums": true,
-        "sourceMap": true,
-        "moduleResolution": "node",
-
-        "paths": {
-            "*": ["./src/*"]
-        },
-
-        "esModuleInterop": true,
-        "outDir": "./dist",
-
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "paths": {
+      "*": ["./src/*"]
     },
-    "include": [ "src" ],
-    "exclude": [
-        ".vscode",
-        "node_modules",
-        "dist"
-    ]
+
+    "esModuleInterop": true,
+    "outDir": "./dist"
+  },
+  "include": ["src", "**/*.ts"],
+  "exclude": [".vscode", "node_modules", "dist"]
 }
