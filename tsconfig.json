@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ES2016",
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+
+        "esModuleInterop": true,
+        "outDir": "./dist",
+    },
+    "include": [
+        "*.ts"
+    ],
+    "exclude": [
+        ".vscode",
+        "node_modules",
+        "dist"
+    ]
+}
