@@ -8,11 +8,6 @@ on:
       - dev
   push:
 
-permissions:
-  security-events: write
-  pull-requests: read
-  contents: read
-
 jobs:
   call-service-workflow:
     uses: wander-suite/wander-devops/.github/workflows/service-workflow.yml@main
