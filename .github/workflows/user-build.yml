@@ -8,10 +8,10 @@ on:
       - dev
   push:
 
-permissions:
-  contents: read
-  pull-requests: read
-  security-events: write
+# permissions:
+#   contents: read
+#   pull-requests: read
+#   security-events: write
 
 jobs:
   call-service-workflow:
