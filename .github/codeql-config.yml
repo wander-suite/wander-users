@@ -1,0 +1,15 @@
+name: 'CodeQL config'
+
+disable-default-queries: true
+
+languages:
+  - javascript
+  - typescript
+
+queries:
+  - name: Extended Security
+    uses: security-extended
+  - name: Security and Quality
+    uses: security-and-quality
+  - name: codeql repo
+    uses: github/codeql/javascript/ql/src/codeql-suites/javascript-code-scanning.qls@v1.24.0
